@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/d6052b84-a779-4717-826b-bff817d94b4a)
 [Скриншот 1.](screenshots/1.jpg) Створюємо репозиторій на GitHub.   
 [Скриншот 2.](screenshots/2.jpg) Підключаємось до репозиторію.    
 [Скриншот 3.](screenshots/3.jpg) Переходимо в необхідну папку і робимо клон репозиторію.    
@@ -71,10 +70,11 @@
 [Скриншот 70.](screenshots/70.jpg) Для того щоб додати чистий репозиторій як віддалений репозиторій до оригіналу, необхідно використовувати всередині основного репозиторія команду `git remote add shared ../work.git`. <br>
 [Скриншот 71.](screenshots/71.jpg) Після внесення змін у файл `README.md` і створення коміту, відправляємо зміни в загальний репозиторій, створений на попередньому кроці. <br>
 [Скриншот 72.](screenshots/72.jpg) За допомогою наступних команд підтягнемо в репозиторій `home` зміни, що були відправлені в загальний репозиторій: <br>
-1. `git fetch shared` <br>
-2. `git merge shared/main` <br> [Скриншот 73.](screenshots/73.jpg) Щоб розмістити Git-репозиторій на GitHub, можна використовувати команду `git daemon --verbose --export-all --base-path=.` і посилання на папку з репозиторіями. Після цього перейти в іншому терміналі і виконати команди в тій же папці: <br>
-1. `git clone git://localhost/work.git network_work` <br>
-2. `cd network_work` <br>
-3. `ls` <br>
+`git fetch shared` <br>
+`git merge shared/main` <br>
+[Скриншот 73.](screenshots/73.jpg) Щоб розмістити Git-репозиторій на GitHub, можна використовувати команду `git daemon --verbose --export-all --base-path=.` і посилання на папку з репозиторіями. Після цього перейти в іншому терміналі і виконати команди в тій же папці: <br>
+`git clone git://localhost/work.git network_work` <br>
+`cd network_work` <br>
+`ls` <br>
 Можна буде побачити копію проєкту.
 
