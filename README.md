@@ -47,9 +47,10 @@
   <img src="screenshots/10.jpg" alt="Описание изображения 2"/>
 </p>
 Команда `git commit` (виконная та успішний статус). <br> <br>
+
 <p align="center">
   <img src="screenshots/11.jpg" alt="Описание изображения 11"/>
-</p> Зроблено дві зміни: перше - додано тег `<div>` для `<h1>`, друге - змінено `title` документа з `document` на `Hello document!` <br> <br>
+</p> Зроблено дві зміни: перше - додано тег ```<div>``` для ```<h1>```, друге - змінено `title` документа з `document` на `Hello document!` <br> <br>
 
 <p align="center">
   <img src="screenshots/12.jpg" alt="Описание изображения 12"/>
