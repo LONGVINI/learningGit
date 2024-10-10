@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshots/1.jpg" alt="Описание изображения 2"/>
+  <img src="screenshots/1.jpg" alt="Описание изображения 2"/>
 </p>
 Створюємо репозиторій на GitHub.    <br> <br>
 
